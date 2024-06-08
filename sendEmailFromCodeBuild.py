@@ -9,9 +9,9 @@ from email import encoders
 from botocore.exceptions import ClientError
 
 # Email details
-sender = 'TMNL-BillingOps@wipro.com'
-recipients = ['TMNL-BillingOps@wipro.com', 'b2c_giants@odido.nl']
-cc_recipients = ['mohd.almas@odido.nl']
+sender = ''
+recipients = ['']
+cc_recipients = ['']
 subject = f'Checkmarx PDF Report for Pipeline $AWS_PIPELINE_NAME'
 body_text = f"""
 Hi Team,
